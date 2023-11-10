@@ -2,11 +2,14 @@
     display: flex;
     align-items: center;
     padding: 3px;
-    background: linear-gradient(36deg,#edebdd 0%, #ccd0cb 80%);
+    background: linear-gradient(36deg,#ffb5b5 0%, #e7e663 80%);
+    color: rgb(255, 255, 255);
     height: 55px;
+    position: fixed;
     top: 0;
     width: 100%;   
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .link{
@@ -18,11 +21,10 @@
     border-radius: 14% / 44%;
     background-color: rgba(22, 22, 22, 0.425), 0%;
     transition: background-color 0.4s;
-}
-
-.link:hover{
-    background-color: rgba(211, 219, 219, 0.079);
-    transform: scale(1.1, 1.1);
+    & :hover{
+        background-color: rgba(211, 219, 219, 0.079);
+        transform: scale(1.1, 1.1);
+    }
 }
 
 .subcontenedor{
@@ -32,4 +34,12 @@
     align-items: center;
     width: 100%;
     list-style-type: none;
+}
+
+.subcontenedor div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    min-width: 550px;
 }

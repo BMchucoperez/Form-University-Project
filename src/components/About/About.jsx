@@ -4,13 +4,16 @@ import style from './About.module.css';
 
 const About = () => {
     return(
-        <div className={style.container}>
+        <nav className={style.container}>
             <ul className={style.subcontenedor}>
-                <Link to = '/'>SALIR</Link>
-                <Link to = '/home'>HOME</Link>
-                <Link to = '/eventos'>EVENTOS</Link>
+                <div>
+                    <li><Link to = '/' className={style.link}>SALIR</Link></li>
+                    <li><Link to = '/home' className={style.link}>HOME</Link></li>
+                    <li><Link to = '/eventos' className={style.link}>CREAR EVENTO</Link></li>
+                </div>
+                
             </ul>
-        </div>
+        </nav>
     );
 };
 

@@ -4,7 +4,7 @@ import styles from './Home.module.css';
 const Home = ({actividades}) => {
    
     return(
-        <div>
+        <div className={styles.container}>
             <h1>Lista de Eventos</h1>
             
             <ul className={styles.listaActividades}>

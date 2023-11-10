@@ -5,7 +5,9 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: azure;
+    background-image: url('./components/images/fondo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   code {

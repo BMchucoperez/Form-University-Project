@@ -156,7 +156,7 @@ const Eventos = ({onAgregarActividad}) => {
 
     return(
         <div className={styles.container}>
-            <h1>Lista de Actividades</h1>
+            <h1>Crear un evento</h1>
             <form onSubmit={handleSubmit}>
                 <label className={styles.nombre}>
                     Nombre del Evento:

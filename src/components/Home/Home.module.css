@@ -1,3 +1,7 @@
+.container{
+    margin-top: 10vh;
+}
+
 .listaActividades {
     list-style: none;
     display: flex;
