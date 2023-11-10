@@ -1,0 +1,347 @@
+.container{
+    display: flex;
+    background-color: beige;
+    flex-direction: column;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.nombre input{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: rgb(235, 225, 208);
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 50vh;
+    margin-left: 20px;
+}
+
+.detalle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.detalle textarea{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: rgb(235, 225, 208);
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 51vh;
+    height: 10vh;
+    margin-left: 25px;
+}
+
+.tipo{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    margin: 30px 0;
+}
+
+.tipo select{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: rgb(235, 225, 208);
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 25vh;
+    margin-left: 50px;
+}
+
+.subtipo{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    margin: 30px 0;
+}
+
+.subtipo select{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: rgb(235, 225, 208);
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 25vh;
+    margin-left: 25px;
+}
+
+.grafico{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    margin: 30px 0;
+}
+
+.grafico button{
+    display: flex;
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-left: 25px;
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.graficoSelec{
+    display: flex;
+    margin-left: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalGraficos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    margin:auto;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    background-color: rgb(244, 251, 239);
+}
+
+.modalGraficos h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.modalGraficos ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.modalGraficos li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.modalGraficos button{
+    width: 10vh;
+    margin-top: 30px;
+}
+
+.modalGraficos p {
+    margin-top: 8px;
+    font-size: 15px;
+    &:hover{
+        transform: scale(1.1, 1.1);
+        color: rgb(174, 130, 80);
+        cursor: pointer;
+    }
+}
+
+.modalGraficos button{
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.imagen{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+    &:hover{
+        transform: scale(1.1, 1.1);
+        cursor: pointer;
+    }
+}
+
+.checkboxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.checkboxOption {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.vacantes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.vacantes input{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: rgb(235, 225, 208);
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 10vh;
+    margin-left: 20px;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    margin: 30px 0;
+}
+
+.ubicacion select{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: rgb(235, 225, 208);
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 27vh;
+    margin-left: 50px;
+}
+
+.organizado{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    margin: 30px 0;
+}
+
+.organizado select{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: rgb(235, 225, 208);
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 25vh;
+    margin-left: 50px;
+}
+
+.agregar{
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.academico{
+    display: flex;
+    margin-left: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.academico button{
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.academico p{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    margin:auto;
+    margin-top: 10vh;
+    padding-top: 2vh;
+    background-color: rgb(244, 251, 239);
+}
+
+.lista li{
+    margin: 9px 0;
+    &:hover{
+        transform: scale(1.1, 1.1);
+        color: rgb(174, 130, 80);
+        cursor: pointer;
+    }
+}
+
+.lista button{
+    border: 3px solid #cec5a6;
+    margin-top: 20px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.fecha{
+    display: flex;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    background: rgb(235, 225, 208);
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 15vh;
+    margin-left: 20px;
+}
+
+.hora{
+    margin-left: 20px;
+}
+
+.react-datepicker-wrapper {
+    display: inline-block;
+}
+
+.react-datepicker-popper {
+    z-index: 9999;
+}
+
+/* Ajustar el zIndex para react-time-picker */
+.react-time-picker__wrapper {
+    z-index: 9999;
+    display: inline-block;
+}

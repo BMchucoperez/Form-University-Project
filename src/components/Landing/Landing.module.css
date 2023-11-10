@@ -1,0 +1,29 @@
+.land{
+    background-color: azure;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.land h1{
+    font-size: 60px;
+}
+
+.land button{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #cec5a6;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-left: 25px;
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
